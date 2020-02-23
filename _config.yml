@@ -18,12 +18,12 @@ sidebar-avatar: /img/about-BY-gentle.jpg      # use absolute URL, seeing it's us
 
 # SNS settings
 RSS: false
-# weibo_username:     qiubaiying
-#zhihu_username:     qiubaiying
+# weibo_username:     ###
+#zhihu_username:     ###
 github_username:    TheUniverseJiyeWang
 facebook_username:  jiye.wang.7509
-#jianshu_username:   e71990ada2fd
-#twitter_username:   qiubaiying
+#jianshu_username:   ###
+#twitter_username:   ###
 
 
 
@@ -56,8 +56,8 @@ kramdown:
 
 
 # 评论系统
-# Disqus（https://disqus.com/）
-# disqus_username: qiubaiying
+Disqus（https://disqus.com/）
+disqus_username: jiyewang
 
 # Gitalk
 gitalk:
