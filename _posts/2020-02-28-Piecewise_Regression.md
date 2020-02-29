@@ -37,8 +37,8 @@ dataset = dataset[d_arg]
 
 The real problem in implementing this algorithm is finding all the possible combination of the splits. It's not like Apriori algorithms that can work from bottom to top. We have to list all combinations manually because there isn't a formula that guaranty the best split combination `f(n)` can be built on the result of a lower layer `f(n-1)`.
 
-So I start with a function `f(n,m)` that can list all the split function when n samples are splited into m parts. The function starts with a bottom layer that each parts of the m parts have 3 elements, and everytime adding one element `f(n+1)`, the function will successively add this element into each combination from the result of last layer `f(n)`, until the last element added. Finally, the combinations with all elements will be logged into a list and the duplicate combinations will be removed.
-
+So I start with a function `f(n, m)` that can list all the split function when **n** samples are splited into **m** parts. The function starts with a bottom layer that each parts of the m parts have 3 elements, and everytime adding one element `f(n+1, m)`, the function will successively add this element into each combination from the result of last layer `f(n, m)`, until the last element added. Finally, the combinations with all elements will be logged into a list and the duplicate combinations will be removed.
+![Imaging putting 1 red ball into 4 baskets](https://tva1.sinaimg.cn/large/00831rSTgy1gcdozhvo00j314o0ah7l5.jpg)
 ```
 def all_combination(n,m):
     result = []
@@ -141,6 +141,6 @@ plt.show()
 
 #### Future Work
 
-1. As we can see in the result, the linear models of different segmentations are not continuous. If continuous linear models are required, we can simply change the `calc_sum_error` function to achieve it.
+1. As we can see in the result, the linear models of different segmentations are not continuous. If **continuous linear models** are required, we can simply change the `calc_sum_error` function to achieve it.
 2. The optimization of the functions can be improved such as remove duplicate results in the middle layer in `all_combination` function. Or we can think of another way that can solve the problem with lower complexity.
 3. The Piecewise Regression model (aka, the segementation regression model) can also be based on a split point of the value of x variable (which can also generate a continuous model). Also, the minimum split number of 3 can be changed according to different problem and increase the generalization ability of the model.
