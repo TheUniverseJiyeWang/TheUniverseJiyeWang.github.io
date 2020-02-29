@@ -1,6 +1,6 @@
 ---
 layout:     post
-title:      Tempt to Solve Piecewise Regression
+title:      Attempt to Solve Piecewise Regression
 subtitle:   Manually solve Piecewise Regression using Python.
 date:       2020-02-28
 author:     JYW
