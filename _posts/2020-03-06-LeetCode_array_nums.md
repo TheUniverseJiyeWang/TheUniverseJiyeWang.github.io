@@ -137,7 +137,7 @@ class Solution:
             return True  
 ```
 
-There is another solution where the list is **sorted** first and then each elements are compared with the next one to check if they are the same until finding the duplicates. The time complexity is `O(n`*log*`n)`
+There is another solution where the list is **sorted** first and then each elements are compared with the next one to check if they are the same until finding the duplicates. The time complexity is `O(n``*log*``n)`
 
 ```
 class Solution:
