@@ -4,7 +4,7 @@ title:      Solutions to Array Nums Problems in LeetCode(3)
 subtitle:   LeetCode Problem #136, #350 and #66
 date:       2020-03-08
 author:     JYW
-header-img: img/post-200306-LeetCode1.jpg
+header-img: img/post-200308-LeetCode1.jpg
 catalog: true
 tags:
     - LeetCode
