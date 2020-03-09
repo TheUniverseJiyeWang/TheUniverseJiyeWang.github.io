@@ -4,7 +4,7 @@ title:      Solutions to String Problems in LeetCode(1)
 subtitle:   LeetCode Problem #344, #7 and #387
 date:       2020-03-09
 author:     JYW
-header-img: img/post-200308-LeetCode1.jpg
+header-img: img/post-200309-LeetCode1.jpg
 catalog: true
 tags:
     - LeetCode
@@ -156,4 +156,18 @@ class Solution:
                 result = i
                 break
         return result
+```
+Or we can use dataType `HashSet` and `dict` at the same time to solve the problem in just one loop.
+```
+class Solution:
+    def firstUniqChar(self, s: str) -> int:
+        d = {}
+        seen = set()
+        for idx, c in enumerate(s):
+            if c not in seen:
+                d[c] = idx
+                seen.add(c)
+            elif c in d:
+                del d[c]
+        return min(d.values()) if d else -1
 ```
