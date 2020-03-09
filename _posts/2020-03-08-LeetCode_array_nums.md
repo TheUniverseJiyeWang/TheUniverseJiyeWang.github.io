@@ -178,11 +178,13 @@ class Solution:
         lenth = len(digits)
         for i in range(1, lenth+1):
             if digits[-i] == 10:
-                if i == lenth and digits[0] == 10:
+                if i == lenth:
                     digits[0] = 0
                     digits = [1] + digits
                 else:
                     digits[-i] = 0
                     digits[-i-1] = digits[-i-1]+1
+            else:
+                break
         return digits
 ```
