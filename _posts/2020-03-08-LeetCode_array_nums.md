@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Solutions to Array Nums Problems in LeetCode(3)
-subtitle:   LeetCode Problem #136 and #350
+subtitle:   LeetCode Problem #136, #350 and #66
 date:       2020-03-08
 author:     JYW
 header-img: img/post-200306-LeetCode1.jpg
@@ -149,4 +149,40 @@ class Solution:
                 result += num,
                 counts[num] -= 1
         return result
+```
+
+# Problem No.66 Plus One
+
+#### Problem Statement
+
+Given a **non-empty** array of digits representing a non-negative integer, plus one to the integer.
+
+The digits are stored such that the most significant digit is at the head of the list, and each element in the array contain a single digit.
+
+You may assume the integer does not contain any leading zero, except the number 0 itself.
+
+-**Example**
+```
+Input: [1,2,3]
+Output: [1,2,4]
+Explanation: The array represents the integer 123.
+```
+
+#### Solution
+
+It's a relatively simple question but the tricky part is to consider all extreme conditions.
+```
+class Solution:
+    def plusOne(self, digits: List[int]) -> List[int]:
+        digits[-1] = digits[-1]+1
+        lenth = len(digits)
+        for i in range(1, lenth+1):
+            if digits[-i] == 10:
+                if i == lenth and digits[0] == 10:
+                    digits[0] = 0
+                    digits = [1] + digits
+                else:
+                    digits[-i] = 0
+                    digits[-i-1] = digits[-i-1]+1
+        return digits
 ```
