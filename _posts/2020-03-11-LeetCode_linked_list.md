@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Solutions to Linked List Problems in LeetCode(3)
-subtitle:   LeetCode Problem #206, #21 and #234
+subtitle:   LeetCode Problem No.206, No.21 and No.234
 date:       2020-03-11
 author:     JYW
 header-img: img/post-200311-LeetCode1.jpg

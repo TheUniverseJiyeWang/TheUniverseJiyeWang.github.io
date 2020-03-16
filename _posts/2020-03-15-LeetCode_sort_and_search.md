@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Solutions to Sort and Search Problems in LeetCode(1)
-subtitle:   LeetCode Problem #88 and #278
+subtitle:   LeetCode Problem No.88 and No.278
 date:       2020-03-15
 author:     JYW
 header-img: img/post-200315-LeetCode1-01.jpg

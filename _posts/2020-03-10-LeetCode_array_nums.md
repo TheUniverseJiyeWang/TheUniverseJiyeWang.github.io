@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Solutions to Array Nums Problems in LeetCode(4)
-subtitle:   LeetCode Problem #04, #283 and #01
+subtitle:   LeetCode Problem No.04, No.283 and No.01
 date:       2020-03-10
 author:     JYW
 header-img: img/post-200310-LeetCode1.jpg

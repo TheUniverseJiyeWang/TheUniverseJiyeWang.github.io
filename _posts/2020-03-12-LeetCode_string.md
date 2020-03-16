@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Solutions to String Problems in LeetCode(2)
-subtitle:   LeetCode Problem #242, #125 and #08
+subtitle:   LeetCode Problem No.242, No.125 and No.08
 date:       2020-03-12
 author:     JYW
 header-img: img/post-200312-LeetCode1.jpg

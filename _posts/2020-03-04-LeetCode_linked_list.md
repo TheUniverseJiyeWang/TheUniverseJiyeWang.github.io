@@ -1,7 +1,7 @@
 ---
 layout:     post
 title:      Solutions to Linked List Problems in LeetCode(1)
-subtitle:   LeetCode Problem #83 and #02
+subtitle:   LeetCode Problem No.83 and No.02
 date:       2020-03-04
 author:     JYW
 header-img: img/post-200304-LeetCode1.jpg
