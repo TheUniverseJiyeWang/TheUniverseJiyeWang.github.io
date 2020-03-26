@@ -20,21 +20,21 @@ tags:
 
 Given a non-negative integer numRows, generate the first numRows of Pascal's triangle.
 
-![In Pascal's triangle, each number is the sum of the two numbers directly above it.](https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif)
+![Pascal's Triangle](https://upload.wikimedia.org/wikipedia/commons/0/0d/PascalTriangleAnimated2.gif)
+
+In Pascal's triangle, each number is the sum of the two numbers directly above it.
 
 -**Example**：
 ```
-Input: 00000000000000000000000000001011
-Output: 3
-Explanation: The input binary string 00000000000000000000000000001011 has a total of three '1' bits.
-
-Input: 00000000000000000000000010000000
-Output: 1
-Explanation: The input binary string 00000000000000000000000010000000 has a total of one '1' bit.
-
-Input: 11111111111111111111111111111101
-Output: 31
-Explanation: The input binary string 11111111111111111111111111111101 has a total of thirty one '1' bits.
+Input: 5
+Output:
+[
+     [1],
+    [1,1],
+   [1,2,1],
+  [1,3,3,1],
+ [1,4,6,4,1]
+]
 ```
 
 -**Note**:
