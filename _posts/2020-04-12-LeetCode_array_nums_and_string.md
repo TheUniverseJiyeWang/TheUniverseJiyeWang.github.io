@@ -2,9 +2,9 @@
 layout:     post
 title:      Solutions to Array Nums Problems in LeetCode(11)
 subtitle:   LeetCode Problem No.334 and No.238
-date:       2020-04-06
+date:       2020-04-12
 author:     JYW
-header-img: img/post-200406-LeetCode1-01.jpg
+header-img: img/post-200412-LeetCode1-01.jpg
 catalog: true
 tags:
     - LeetCode
